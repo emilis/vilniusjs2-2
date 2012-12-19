@@ -1,7 +1,7 @@
-.PHONY:	main
+.PHONY:	main publish
 
 main:
-	./slides.sh
+	bash slides.sh
 
 publish:
 	git push origin master
